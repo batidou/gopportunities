@@ -7,7 +7,7 @@ func InitializeRouter() {
 	// Create a new router instance with the default settings
 	router := gin.Default()
 
-	// Initialize all the routes
+	// Initialize and register all the routes
 	initializeRoutes(router)
 
 	// Run the router on port 8080
